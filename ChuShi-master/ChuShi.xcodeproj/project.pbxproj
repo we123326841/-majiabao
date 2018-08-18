@@ -67,6 +67,7 @@
 		9D2589E81C159BD900EA20B2 /* PickImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589E61C159BD900EA20B2 /* PickImageViewController.m */; };
 		9D2589EC1C159D1900EA20B2 /* UIControl+YYAdd.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589EB1C159D1900EA20B2 /* UIControl+YYAdd.m */; };
 		9D26757C1C16D82900D55C7E /* UIDevice+machine.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D26757B1C16D82900D55C7E /* UIDevice+machine.m */; };
+		9F8DEB962127E0F900973684 /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F8DEB952127E0F900973684 /* MainCollectionViewCell.m */; };
 		E807D376C8EF63535EFB5F37 /* libPods-ChuShi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F4B19280FB374380A06AACB /* libPods-ChuShi.a */; };
 /* End PBXBuildFile section */
 
@@ -194,6 +195,7 @@
 		9D2675781C16B7E500D55C7E /* Reveal.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Reveal.framework; sourceTree = "<group>"; };
 		9D26757A1C16D82900D55C7E /* UIDevice+machine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+machine.h"; sourceTree = "<group>"; };
 		9D26757B1C16D82900D55C7E /* UIDevice+machine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+machine.m"; sourceTree = "<group>"; };
+		9F8DEB952127E0F900973684 /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
 		A27C7AE381F9A7732E7B3A7A /* Pods-ChuShi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuShi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChuShi/Pods-ChuShi.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -466,6 +468,7 @@
 		9D25897C1C159A7900EA20B2 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				9F8DEB952127E0F900973684 /* MainCollectionViewCell.m */,
 				9D2589A81C159B9700EA20B2 /* MainCollectionViewCell.h */,
 				9D2589AA1C159B9700EA20B2 /* MainCollectionViewCell.xib */,
 				9D2589A51C159B9700EA20B2 /* CardListCollectionViewCell.h */,
@@ -582,7 +585,8 @@
 				TargetAttributes = {
 					9D2589071C1591BF00EA20B2 = {
 						CreatedOnToolsVersion = 7.1.1;
-						DevelopmentTeam = T97FFXXX75;
+						DevelopmentTeam = V4CZ2PEUB2;
+						ProvisioningStyle = Automatic;
 					};
 					9D2589201C1591BF00EA20B2 = {
 						CreatedOnToolsVersion = 7.1.1;
@@ -724,6 +728,7 @@
 				9D2589EC1C159D1900EA20B2 /* UIControl+YYAdd.m in Sources */,
 				9D2589DF1C159BD100EA20B2 /* NSString+Process.m in Sources */,
 				2F2FB7E62127DF7F00579D6D /* MainViewController.m in Sources */,
+				9F8DEB962127E0F900973684 /* MainCollectionViewCell.m in Sources */,
 				9D2589CD1C159BB800EA20B2 /* JSONHelper.m in Sources */,
 				9D2589E81C159BD900EA20B2 /* PickImageViewController.m in Sources */,
 				9D2589C21C159BB000EA20B2 /* NetworkManager.m in Sources */,
@@ -867,6 +872,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4CZ2PEUB2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -874,7 +881,7 @@
 				);
 				GCC_PREFIX_HEADER = "ChuShi/Head/WordRecognition-Prefix.pch";
 				INFOPLIST_FILE = ChuShi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -894,9 +901,10 @@
 					"-framework",
 					Reveal,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uniquestudio.ChuShi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniquestudio.ChuShi90;
 				PRODUCT_NAME = "初识";
-				PROVISIONING_PROFILE = "a3d72314-39eb-4423-9b3e-6011240218d6";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -907,6 +915,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = V4CZ2PEUB2;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -914,7 +924,7 @@
 				);
 				GCC_PREFIX_HEADER = "ChuShi/Head/WordRecognition-Prefix.pch";
 				INFOPLIST_FILE = ChuShi/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -934,9 +944,10 @@
 					"-framework",
 					Reveal,
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.uniquestudio.ChuShi;
+				PRODUCT_BUNDLE_IDENTIFIER = com.uniquestudio.ChuShi90;
 				PRODUCT_NAME = "初识";
-				PROVISIONING_PROFILE = "a3d72314-39eb-4423-9b3e-6011240218d6";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

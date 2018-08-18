@@ -7,6 +7,8 @@
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -125,6 +127,10 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="603"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P1A-v4-Vue">
+                                <rect key="frame" x="19" y="72" width="337" height="463"/>
+                                <color key="backgroundColor" red="1" green="0.4060182152234042" blue="0.82473216264472504" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            </view>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="aj5-fC-5TN">
                                 <rect key="frame" x="19" y="72" width="337" height="463"/>
                                 <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
@@ -164,9 +170,11 @@
                                     <color key="titleColor" red="1" green="0.61176470588235299" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 </state>
                             </button>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pTk-UF-IA0">
-                                <rect key="frame" x="81" y="14" width="212" height="29"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="pTk-UF-IA0">
+                                <rect key="frame" x="93.5" y="15" width="187.5" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="28" id="H7v-UY-j1C"/>
+                                </constraints>
                                 <segments>
                                     <segment title="识图"/>
                                     <segment title="识字"/>
@@ -180,11 +188,18 @@
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailing" secondItem="aj5-fC-5TN" secondAttribute="trailing" constant="19" id="3NU-Sk-aCv"/>
+                            <constraint firstItem="pTk-UF-IA0" firstAttribute="top" secondItem="dDu-ED-LkS" secondAttribute="bottom" constant="15" id="ARN-On-95w"/>
                             <constraint firstItem="aj5-fC-5TN" firstAttribute="top" secondItem="dDu-ED-LkS" secondAttribute="bottom" constant="72" id="H6W-ST-EPw"/>
                             <constraint firstItem="pYa-fp-0p0" firstAttribute="centerX" secondItem="Ibs-E4-3ee" secondAttribute="centerX" id="Iei-Wj-8Ow"/>
                             <constraint firstItem="hDt-8c-yLQ" firstAttribute="top" secondItem="pYa-fp-0p0" secondAttribute="bottom" id="K5y-MF-jTa"/>
+                            <constraint firstItem="pTk-UF-IA0" firstAttribute="centerX" secondItem="Ibs-E4-3ee" secondAttribute="centerX" id="Pq2-lO-2Ph"/>
+                            <constraint firstItem="P1A-v4-Vue" firstAttribute="top" secondItem="dDu-ED-LkS" secondAttribute="bottom" constant="72" id="S5J-sj-C71"/>
                             <constraint firstItem="aj5-fC-5TN" firstAttribute="leading" secondItem="Ibs-E4-3ee" secondAttribute="leading" constant="19" id="WY2-8w-2VV"/>
+                            <constraint firstItem="P1A-v4-Vue" firstAttribute="leading" secondItem="Ibs-E4-3ee" secondAttribute="leadingMargin" constant="3" id="b3T-Kb-5IS"/>
                             <constraint firstItem="hDt-8c-yLQ" firstAttribute="top" secondItem="aj5-fC-5TN" secondAttribute="bottom" constant="68" id="beH-sI-Jjb"/>
+                            <constraint firstItem="pTk-UF-IA0" firstAttribute="width" secondItem="Ibs-E4-3ee" secondAttribute="width" multiplier="0.5" id="flw-NW-qME"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="P1A-v4-Vue" secondAttribute="trailing" constant="3" id="qek-fE-uxl"/>
+                            <constraint firstItem="hDt-8c-yLQ" firstAttribute="top" secondItem="P1A-v4-Vue" secondAttribute="bottom" constant="68" id="uxz-e7-OZA"/>
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout" bottom="YES"/>
@@ -193,6 +208,7 @@
                         <outlet property="choosePhotoButton" destination="pYa-fp-0p0" id="6sF-fW-Bdu"/>
                         <outlet property="mainCollectionView" destination="aj5-fC-5TN" id="BqE-nC-ieT"/>
                         <outlet property="mySwitch" destination="pTk-UF-IA0" id="oQw-hN-BlH"/>
+                        <outlet property="wenZiView" destination="P1A-v4-Vue" id="voK-3z-x0B"/>
                         <segue destination="LXe-oA-2aB" kind="show" identifier="main2list" id="lfM-iS-5Cv"/>
                     </connections>
                 </viewController>

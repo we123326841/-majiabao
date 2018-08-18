@@ -20,6 +20,7 @@
 
 @interface MainViewController ()<UICollectionViewDataSource, UICollectionViewDelegate, AVAudioPlayerDelegate
 >
+@property (weak, nonatomic) IBOutlet UIView *wenZiView;
 @property (weak, nonatomic) IBOutlet UISegmentedControl *mySwitch;
 
 @property (weak, nonatomic) IBOutlet UICollectionView *mainCollectionView;
@@ -34,11 +35,21 @@
 - (IBAction)clickSwitch:(UISegmentedControl *)sender {
     NSInteger i =  sender.selectedSegmentIndex;
     NSLog(@"%ld",(long)i);
+    if (i == 0) {
+        self.choosePhotoButton.hidden = false;
+        self.mainCollectionView.hidden = false;
+         self.wenZiView.hidden = YES;
+    }else{
+        self.choosePhotoButton.hidden = YES;
+        self.mainCollectionView.hidden = YES;
+        self.wenZiView.hidden = false;
+    }
 }
 
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+      self.wenZiView.hidden = YES;
     [self setUpSubviews];
 }
 
