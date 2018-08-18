@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		2F2FB7E42127DDAA00579D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2FB7E32127DDAA00579D6D /* Main.storyboard */; };
 		2F2FB7E62127DF7F00579D6D /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2FB7E52127DF7F00579D6D /* MainViewController.m */; };
+		2F2FB7E82127DFF600579D6D /* MainCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F2FB7E72127DFF500579D6D /* MainCollectionViewCell.m */; };
 		9D11ACB41C16A327009ADAAD /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D11ACB31C16A327009ADAAD /* UIImage+fixOrientation.m */; };
 		9D1E58F41C16E6E100516264 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E58F31C16E6E100516264 /* Media.xcassets */; };
 		9D1E58F61C17114700516264 /* Main_5s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E58F51C17114700516264 /* Main_5s.storyboard */; };
@@ -90,6 +91,7 @@
 /* Begin PBXFileReference section */
 		2F2FB7E32127DDAA00579D6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		2F2FB7E52127DF7F00579D6D /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		2F2FB7E72127DFF500579D6D /* MainCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainCollectionViewCell.m; sourceTree = "<group>"; };
 		5F4B19280FB374380A06AACB /* libPods-ChuShi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChuShi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		855995E0546BA5CD9F6C44B8 /* Pods-ChuShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuShi/Pods-ChuShi.release.xcconfig"; sourceTree = "<group>"; };
 		9D11ACB21C16A327009ADAAD /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
@@ -467,6 +469,7 @@
 			isa = PBXGroup;
 			children = (
 				9D2589A81C159B9700EA20B2 /* MainCollectionViewCell.h */,
+				2F2FB7E72127DFF500579D6D /* MainCollectionViewCell.m */,
 				9D2589AA1C159B9700EA20B2 /* MainCollectionViewCell.xib */,
 				9D2589A51C159B9700EA20B2 /* CardListCollectionViewCell.h */,
 				9D2589A61C159B9700EA20B2 /* CardListCollectionViewCell.m */,
@@ -724,6 +727,7 @@
 				9D2589EC1C159D1900EA20B2 /* UIControl+YYAdd.m in Sources */,
 				9D2589DF1C159BD100EA20B2 /* NSString+Process.m in Sources */,
 				2F2FB7E62127DF7F00579D6D /* MainViewController.m in Sources */,
+				2F2FB7E82127DFF600579D6D /* MainCollectionViewCell.m in Sources */,
 				9D2589CD1C159BB800EA20B2 /* JSONHelper.m in Sources */,
 				9D2589E81C159BD900EA20B2 /* PickImageViewController.m in Sources */,
 				9D2589C21C159BB000EA20B2 /* NetworkManager.m in Sources */,
