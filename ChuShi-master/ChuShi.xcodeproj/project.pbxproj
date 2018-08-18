@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F2FB7E42127DDAA00579D6D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F2FB7E32127DDAA00579D6D /* Main.storyboard */; };
 		9D11ACB41C16A327009ADAAD /* UIImage+fixOrientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D11ACB31C16A327009ADAAD /* UIImage+fixOrientation.m */; };
 		9D1E58F41C16E6E100516264 /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E58F31C16E6E100516264 /* Media.xcassets */; };
 		9D1E58F61C17114700516264 /* Main_5s.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D1E58F51C17114700516264 /* Main_5s.storyboard */; };
@@ -33,7 +34,6 @@
 		9D25896B1C1599DB00EA20B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D2589671C1599DB00EA20B2 /* Assets.xcassets */; };
 		9D25896C1C1599DB00EA20B2 /* neizhi.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9D2589681C1599DB00EA20B2 /* neizhi.plist */; };
 		9D25896F1C159A2D00EA20B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25896E1C159A2D00EA20B2 /* AppDelegate.m */; };
-		9D25897F1C159B6A00EA20B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9D25897D1C159B6A00EA20B2 /* Main.storyboard */; };
 		9D2589851C159B7600EA20B2 /* YTOperations.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589811C159B7600EA20B2 /* YTOperations.m */; };
 		9D2589861C159B7600EA20B2 /* YTTagModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589841C159B7600EA20B2 /* YTTagModel.m */; };
 		9D25898F1C159B7E00EA20B2 /* TXQcloudFrSDK.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589871C159B7E00EA20B2 /* TXQcloudFrSDK.m */; };
@@ -44,7 +44,6 @@
 		9D2589981C159B8B00EA20B2 /* CardViewBindHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589971C159B8B00EA20B2 /* CardViewBindHelper.m */; };
 		9D25899F1C159B9000EA20B2 /* CardListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25899A1C159B9000EA20B2 /* CardListViewController.m */; };
 		9D2589A01C159B9000EA20B2 /* CardViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25899C1C159B9000EA20B2 /* CardViewController.m */; };
-		9D2589A11C159B9000EA20B2 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D25899E1C159B9000EA20B2 /* MainViewController.m */; };
 		9D2589AB1C159B9700EA20B2 /* CardCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9D2589A21C159B9700EA20B2 /* CardCollectionViewCell.xib */; };
 		9D2589AC1C159B9700EA20B2 /* CardCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589A41C159B9700EA20B2 /* CardCollectionViewCell.m */; };
 		9D2589AD1C159B9700EA20B2 /* CardListCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2589A61C159B9700EA20B2 /* CardListCollectionViewCell.m */; };
@@ -89,6 +88,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F2FB7E32127DDAA00579D6D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		5F4B19280FB374380A06AACB /* libPods-ChuShi.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChuShi.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		855995E0546BA5CD9F6C44B8 /* Pods-ChuShi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChuShi.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChuShi/Pods-ChuShi.release.xcconfig"; sourceTree = "<group>"; };
 		9D11ACB21C16A327009ADAAD /* UIImage+fixOrientation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+fixOrientation.h"; sourceTree = "<group>"; };
@@ -125,7 +125,6 @@
 		9D2589681C1599DB00EA20B2 /* neizhi.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = neizhi.plist; sourceTree = "<group>"; };
 		9D25896D1C159A2D00EA20B2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9D25896E1C159A2D00EA20B2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		9D25897E1C159B6A00EA20B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9D2589801C159B7600EA20B2 /* YTOperations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTOperations.h; sourceTree = "<group>"; };
 		9D2589811C159B7600EA20B2 /* YTOperations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YTOperations.m; sourceTree = "<group>"; };
 		9D2589821C159B7600EA20B2 /* YTResponseKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YTResponseKeys.h; sourceTree = "<group>"; };
@@ -148,7 +147,6 @@
 		9D25899B1C159B9000EA20B2 /* CardViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardViewController.h; sourceTree = "<group>"; };
 		9D25899C1C159B9000EA20B2 /* CardViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardViewController.m; sourceTree = "<group>"; };
 		9D25899D1C159B9000EA20B2 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
-		9D25899E1C159B9000EA20B2 /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
 		9D2589A21C159B9700EA20B2 /* CardCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardCollectionViewCell.xib; sourceTree = "<group>"; };
 		9D2589A31C159B9700EA20B2 /* CardCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardCollectionViewCell.h; sourceTree = "<group>"; };
 		9D2589A41C159B9700EA20B2 /* CardCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardCollectionViewCell.m; sourceTree = "<group>"; };
@@ -267,7 +265,7 @@
 			children = (
 				9D25896D1C159A2D00EA20B2 /* AppDelegate.h */,
 				9D25896E1C159A2D00EA20B2 /* AppDelegate.m */,
-				9D25897D1C159B6A00EA20B2 /* Main.storyboard */,
+				2F2FB7E32127DDAA00579D6D /* Main.storyboard */,
 				9D1E58F51C17114700516264 /* Main_5s.storyboard */,
 				9D2589661C1599DB00EA20B2 /* Info.plist */,
 				9D2589671C1599DB00EA20B2 /* Assets.xcassets */,
@@ -456,7 +454,7 @@
 			isa = PBXGroup;
 			children = (
 				9D25899D1C159B9000EA20B2 /* MainViewController.h */,
-				9D25899E1C159B9000EA20B2 /* MainViewController.m */,
+				9D2589A91C159B9700EA20B2 /* MainCollectionViewCell.m */,
 				9D2589991C159B9000EA20B2 /* CardListViewController.h */,
 				9D25899A1C159B9000EA20B2 /* CardListViewController.m */,
 				9D25899B1C159B9000EA20B2 /* CardViewController.h */,
@@ -469,7 +467,6 @@
 			isa = PBXGroup;
 			children = (
 				9D2589A81C159B9700EA20B2 /* MainCollectionViewCell.h */,
-				9D2589A91C159B9700EA20B2 /* MainCollectionViewCell.m */,
 				9D2589AA1C159B9700EA20B2 /* MainCollectionViewCell.xib */,
 				9D2589A51C159B9700EA20B2 /* CardListCollectionViewCell.h */,
 				9D2589A61C159B9700EA20B2 /* CardListCollectionViewCell.m */,
@@ -623,7 +620,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D25896C1C1599DB00EA20B2 /* neizhi.plist in Resources */,
-				9D25897F1C159B6A00EA20B2 /* Main.storyboard in Resources */,
+				2F2FB7E42127DDAA00579D6D /* Main.storyboard in Resources */,
 				9D1E58F41C16E6E100516264 /* Media.xcassets in Resources */,
 				9D25891B1C1591BF00EA20B2 /* LaunchScreen.storyboard in Resources */,
 				9D1E58F61C17114700516264 /* Main_5s.storyboard in Resources */,
@@ -713,7 +710,6 @@
 				9D25896F1C159A2D00EA20B2 /* AppDelegate.m in Sources */,
 				9D26757C1C16D82900D55C7E /* UIDevice+machine.m in Sources */,
 				9D2589861C159B7600EA20B2 /* YTTagModel.m in Sources */,
-				9D2589A11C159B9000EA20B2 /* MainViewController.m in Sources */,
 				9D2589911C159B7E00EA20B2 /* NSData+Base64.m in Sources */,
 				9D2589BE1C159BA600EA20B2 /* NavigationDelegate.m in Sources */,
 				9D2589951C159B8400EA20B2 /* VoiceHelper.m in Sources */,
@@ -779,14 +775,6 @@
 				9D25891A1C1591BF00EA20B2 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		9D25897D1C159B6A00EA20B2 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				9D25897E1C159B6A00EA20B2 /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
