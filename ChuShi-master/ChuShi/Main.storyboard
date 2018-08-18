@@ -180,9 +180,6 @@
                                     <segment title="识字"/>
                                 </segments>
                                 <color key="tintColor" red="1" green="0.61176470588235299" blue="0.60784313725490191" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                <connections>
-                                    <action selector="clickSwitch:" destination="tHs-3q-yku" eventType="valueChanged" id="iEs-Ns-WWV"/>
-                                </connections>
                             </segmentedControl>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -207,8 +204,11 @@
                     <connections>
                         <outlet property="choosePhotoButton" destination="pYa-fp-0p0" id="6sF-fW-Bdu"/>
                         <outlet property="mainCollectionView" destination="aj5-fC-5TN" id="BqE-nC-ieT"/>
+<<<<<<< HEAD
                         <outlet property="mySwitch" destination="pTk-UF-IA0" id="oQw-hN-BlH"/>
                         <outlet property="wenZiView" destination="P1A-v4-Vue" id="voK-3z-x0B"/>
+=======
+>>>>>>> 168dfdb47c3d5c38d1cff2f611c148ae57707e99
                         <segue destination="LXe-oA-2aB" kind="show" identifier="main2list" id="lfM-iS-5Cv"/>
                     </connections>
                 </viewController>
